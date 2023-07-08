@@ -23,8 +23,10 @@ class _HomeScreenState extends State<HomeScreen> {
 
   @override
   Widget build(context) {
+    // ///////////////////////////////////////////////
     final List<String> args =
         ModalRoute.of(context)!.settings.arguments as List<String>;
+        // //////////////////////////////////////////////
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.green,
